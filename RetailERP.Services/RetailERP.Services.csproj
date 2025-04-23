@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RetailERP.Core\RetailERP.Core.csproj" />
+    <ProjectReference Include="..\RetailERP.Infrastructures\RetailERP.Infrastructures.csproj" />
+  </ItemGroup>
+
 </Project>
